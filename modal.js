@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   // > Close modal on esc press
-  document.addEventListener("keydown", function (event) {
+  document.addEventListener("keyup", function (event) {
     if (event.key === "Escape") {
       modal.classList.add("invisible");
     }
